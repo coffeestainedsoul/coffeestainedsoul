@@ -1,0 +1,125 @@
+
+
+body{
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+.parallax{
+  background: url("https://images.pexels.com/photos/172289/pexels-photo-172289.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.parallax-inner{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: #ffffff;
+}
+
+.parallax-inner h3{
+  color: #ffffff;
+}
+
+.parallax-inner a{
+  color: #ffffff;
+}
+
+.coffee-stained-soul{
+   width: 60%
+}
+
+.margin{
+  margin: 5% 0;
+}
+
+.margin h2{
+  color: #7C2E00;
+}
+
+div{
+  text-align: center;
+}
+
+hr{
+  border-style: dotted;
+  border-width: .5em;
+  border-top: none;
+  width: 20em;
+}
+
+.cloud-top{
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.cloud-bottom{
+  position: absolute;
+  bottom: 550px;
+  left: 500px;
+}
+
+h1{
+  font-size: 5.625rem;
+  font-family: 'Sacramento';
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+h3{
+  color: #7C2E00;
+}
+
+a{
+  color: #7C2E00;
+}
+
+.top-container{
+
+}
+
+.top-container h2{
+  font-weight: normal;
+  line-height: 2;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+
+}
+
+.profile img{
+  display: none;
+  height: 200px;
+  width:350px;
+  border-radius: 100%;
+  float: left;
+  position: absolute;
+  left: 300px;
+  top: 1000px;
+}
+
+.table{
+  width: 30%;
+  margin: 30px;
+}
+
+.drill{
+  height: 80px;
+}
+
+.ruler{
+  height: 80px;
+}
