@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>My CSS Site</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -17,6 +16,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="manifest" href="/manifest.json">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
     <meta name="msapplication-TileColor" content="#ffffff">
@@ -25,62 +27,87 @@
   </head>
   <body>
     <section class="parallax">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-inner fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">
+            <img src="images/cssNameWhite.svg" alt="css" style="width:6em">
+          </a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
       <div class = "parallax-inner">
         <img class="coffee-stained-soul" src="images/whiteCssMug.svg" alt="Coffee Stained Soul Mug">
       </div>
-    </section>
       <div class="margin">
-        <div class="middle-container">
+        <div class="middle-container parallax-inner">
           <div class="profile">
             <img src="images/Keep-Off-Dunes.JPG" alt="Justin">
             <h2>Hello.</h2>
-            <p>I'm here to serve. <br><br>You tell me what you need and when you need it and consider it done. <br><br>I work hard to make my clients happy.</p>
+            <p>I'm here to serve. <br>You tell me what you need and when you need it and consider it done. <br>I work hard to make my clients happy.</p>
           </div>
         </div>
       </div>
-          <section class="parallax">
-            <div class="parallax-inner">
-              <!-- <img class="cloud-top" src="images/cloud.png" alt="cloud"/> -->
-              <h1>I'm Justin</h1>
-              <h2 style="color: #ffffff;">A Carpenter & Entrepreneur</h2>
-              <!-- <img class="cloud-bottom" src="images/cloud.png" alt="cloud"/> -->
-              <img class="table" src="images/farmhouseTableWhite.svg" alt="mountain">
-            </div>
-          </section>
-        <div class="margin">
-          <div class="skills">
-            <h2>My Skills.</h2>
-            <div class="skill-row">
+      <div class="parallax-inner">
+        <!-- <img class="cloud-top" src="images/cloud.png" alt="cloud"/> -->
+        <h1>I'm Justin</h1>
+        <h2 style="color: #ffffff;">A Carpenter & Entrepreneur</h2>
+        <!-- <img class="cloud-bottom" src="images/cloud.png" alt="cloud"/> -->
+        <img class="table" src="images/farmhouseTableWhite.svg" alt="mountain">
+      </div>
+      <div class="margin">
+        <div class="skills parallax-inner">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <div class="drill-div">
               <img class="drill" src="images/tools/svg/drill.svg" alt="drill">
-              <h3>Hardwork</h3>
-              <p>All my work is backed by a hardwork guarantee. This is the key ingredient for a quality product.</p>
             </div>
-            <div class="skill-row">
+            <h3>Hardwork</h3>
+            <p>All my work is backed by a hardwork guarantee. This is the key ingredient for a quality product.</p>
+          </div>
+          <div class="skill-row">
+            <div class="ruler-div">
               <img class="ruler" src="images/tools/svg/ruler-1.svg" alt="ruler">
-              <h3>Precision</h3>
-              <p>Each piece is carefully constructed with painstaking detail to ensure perfection.</p>
             </div>
+            <h3>Precision</h3>
+            <p>Each piece is carefully constructed with painstaking detail to ensure perfection.</p>
           </div>
         </div>
       </div>
-        <section class="parallax">
-          <div class="parallax-inner">
-            <div class="contact-me">
-              <h2>Get In Touch</h2>
-              <h3>Special Requests?</h3>
-              <p>Feel free to inquire when there is a need.</p>
-              <a class="btn" href="mailto:jwc9072@gmail.com">CONTACT ME</a>
-            </div>
-          </div>
-        </section>
-
-        <div class="margin">
-          <div class="bottom-container">
-            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-            <a class="footer-link" href="https://twitter.com/">Twitter</a>
-            <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-            <p>© 2018 Name Surname.</p>
-          </div>
+      <div class="parallax-inner">
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Special Requests?</h3>
+          <p>Feel free to inquire when there is a need.</p>
+          <button class="button" href="mailto:jwc9072@gmail.com">CONTACT ME</button>
         </div>
+      </div>
+      <div class="margin">
+        <div class="bottom-container">
+          <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+          <a class="footer-link" href="https://twitter.com/">Twitter</a>
+          <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+          <p>© 2018 Name Surname.</p>
+        </div>
+      </div>
+    </section>
+
+
   </body>
 </html>
